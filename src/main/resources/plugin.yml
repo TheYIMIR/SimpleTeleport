@@ -1,0 +1,32 @@
+name: SimpleTeleport
+version: '${project.version}'
+main: de.sesosas.simpleteleport.SimpleTeleport
+commands:
+  stp-reload:
+    description: Reload the config
+    permission: stp.reload
+    permission-message: $cYou are not allowed to use this command!
+  tpa:
+    description: Ask for teleport
+    permission: stp.tpa
+    permission-message: $cYou are not allowed to use this command!
+  tpaccept:
+    description: Accept teleport
+    permission: stp.tpaccept
+    permission-message: $cYou are not allowed to use this command!
+  tpdeny:
+    description: Deny teleport
+    permission: stp.tpdeny
+    permission-message: $cYou are not allowed to use this command!
+  tpr:
+    description: Random teleport
+    permission: stp.tpr
+    permission-message: $cYou are not allowed to use this command!
+  tpar:
+    description: Ask a random player for teleport
+    permission: stp.tpar
+    permission-message: $cYou are not allowed to use this command!
+  tphere:
+    description: Ask another player if he wants to teleport to you
+    permission: stp.tphere
+    permission-message: $cYou are not allowed to use this command!
